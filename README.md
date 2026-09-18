@@ -1,136 +1,85 @@
 # SEO On-Page Checklist
 
-A practical, repeatable checklist for optimizing web pages for search engines and users.
+A practical, repeatable SEO framework for auditing and optimizing web pages for search engines, users, and modern search experiences.
+
+## Overview
+
+This repository provides a structured on-page SEO checklist that can be used for:
+
+- New page launches
+- Existing page optimization
+- Content refreshes
+- Technical SEO audits
+- SEO quality assurance
+- Competitor gap analysis
+- Pre-publication reviews
+- Post-optimization monitoring
+
+---
 
 ## What's Included
 
-- Technical SEO
-- Search Intent
-- Keyword Research & Mapping
-- Title Tag & Meta Description
-- URL & Canonical
-- Heading Structure
-- Content Optimization
-- Internal Linking
-- Image SEO
-- Schema Markup
-- E-E-A-T Signals
-- Core Web Vitals
-- Indexability
-- Final SEO QA
+### 🔧 Technical SEO
 
-## Checklist
+Crawlability, indexability, canonicalization, redirects, mobile usability, Core Web Vitals, sitemap, and technical QA.
 
-### 1. Search Intent
+→ [Technical SEO Checklist](checklist/technical-seo.md)
 
-- [ ] Primary search intent identified
-- [ ] Target keyword identified
-- [ ] Secondary keywords identified
-- [ ] SERP reviewed
-- [ ] Content type matches search intent
-- [ ] User's primary question is answered
+### 🏷️ Metadata & SERP
 
-### 2. Title Tag
+Title tags, meta descriptions, H1s, heading structure, robots directives, canonical tags, Open Graph, and SERP presentation.
 
-- [ ] Primary keyword included naturally
-- [ ] Title accurately represents the page
-- [ ] Title is unique
-- [ ] Title is compelling for users
-- [ ] No unnecessary keyword stuffing
+→ [Metadata & SERP Checklist](checklist/metadata.md)
 
-### 3. Meta Description
+### 📝 Content SEO
 
-- [ ] Meta description is unique
-- [ ] Primary keyword/topic included naturally
-- [ ] Clearly communicates page value
-- [ ] Includes relevant CTA where appropriate
+Search intent, keyword mapping, content quality, topical coverage, content freshness, E-E-A-T, and AI search readiness.
 
-### 4. Headings
+→ [Content SEO Checklist](checklist/content-seo.md)
 
-- [ ] One clear H1
-- [ ] H1 accurately describes the page
-- [ ] Primary topic reflected in H1
-- [ ] H2s cover major subtopics
-- [ ] Heading hierarchy is logical
-- [ ] No unnecessary heading tags
+### 🔗 Internal Linking
 
-### 5. Content
+Contextual linking, anchor text, site architecture, topic clusters, link equity, orphan pages, and internal link QA.
 
-- [ ] Content satisfies search intent
-- [ ] Topic is covered comprehensively
-- [ ] Important information appears early
-- [ ] Content is easy to scan
-- [ ] Short paragraphs used where appropriate
-- [ ] Relevant keywords used naturally
-- [ ] No keyword stuffing
-- [ ] Content is original and useful
-- [ ] Facts and statistics are accurate
-- [ ] Content is updated when necessary
+→ [Internal Linking Checklist](checklist/internal-linking.md)
 
-### 6. URL
+### 🧩 Structured Data
 
-- [ ] URL is descriptive
-- [ ] URL is concise
-- [ ] Primary topic reflected where appropriate
-- [ ] Unnecessary parameters avoided
-- [ ] Canonical URL is correct
+Schema identification, implementation, content consistency, validation, and structured data maintenance.
 
-### 7. Internal Linking
+→ [Schema Checklist](checklist/schema.md)
 
-- [ ] Relevant internal links added
-- [ ] Important pages receive internal links
-- [ ] Descriptive anchor text used
-- [ ] No broken internal links
-- [ ] Contextually relevant pages are connected
+### ✅ Final SEO QA
 
-### 8. Images
+A final pre-publication checklist covering on-page, technical, content, internal linking, schema, performance, and trust signals.
 
-- [ ] Images are relevant
-- [ ] Images are compressed
-- [ ] Descriptive file names used
-- [ ] Alt text added where appropriate
-- [ ] Image dimensions are optimized
-- [ ] Lazy loading implemented where appropriate
+→ [Final SEO QA Checklist](checklist/final-qa.md)
 
-### 9. Schema Markup
+---
 
-- [ ] Relevant structured data identified
-- [ ] Schema matches visible page content
-- [ ] Required properties implemented
-- [ ] Schema validated
-- [ ] No misleading structured data
+# SEO Workflow
 
-### 10. Technical SEO
+Use the repository as a repeatable workflow:
 
-- [ ] Page is indexable
-- [ ] Robots directives reviewed
-- [ ] Canonical tag verified
-- [ ] HTTPS enabled
-- [ ] Mobile-friendly
-- [ ] No important crawl issues
-- [ ] No broken links
-- [ ] Redirects working correctly
-- [ ] Core Web Vitals reviewed
-
-### 11. E-E-A-T
-
-- [ ] Author information available where relevant
-- [ ] Author credentials provided where relevant
-- [ ] Publisher information available
-- [ ] Sources cited where appropriate
-- [ ] Contact/business information available
-- [ ] Trust signals are visible
-
-### 12. Final SEO QA
-
-- [ ] Page renders correctly
-- [ ] Title checked
-- [ ] Meta description checked
-- [ ] H1 checked
-- [ ] Canonical checked
-- [ ] Indexability checked
-- [ ] Internal links checked
-- [ ] Schema checked
-- [ ] Mobile version checked
-- [ ] Page speed checked
-- [ ] Final SERP comparison completed
+```text
+1. Understand the Page
+        ↓
+2. Identify Search Intent
+        ↓
+3. Map Primary & Secondary Keywords
+        ↓
+4. Audit Current On-Page Elements
+        ↓
+5. Analyze Content & Competitor Gaps
+        ↓
+6. Optimize Metadata & Headings
+        ↓
+7. Improve Content
+        ↓
+8. Strengthen Internal Linking
+        ↓
+9. Review Schema & Technical SEO
+        ↓
+10. Perform Final SEO QA
+        ↓
+11. Monitor Performance
